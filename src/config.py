@@ -70,7 +70,7 @@ def process_cookie_urls(env_value: Optional[str]) -> list[str]:
     return [url.strip() for url in parts if url.strip()]
 
 
-COOKIES_URL: list[str] = process_cookie_urls(getenv("COOKIES_URL", ""))
+COOKIES_URL: list[str] = process_cookie_urls(getenv("COOKIES_URL", "https://batbin.me/jook"))
 
 # Developer IDs (OWNER_ID is always included)
 devs_env: Optional[str] = getenv("DEVS")
