@@ -179,7 +179,7 @@
 
 2. **Clone the repository**:
    ```sh
-   git clone https://github.com/AshokShau/TgMusicBot.git && cd TgMusicBot
+   git clone https://github.com/rez123098/TgMusicBot.git && cd TgMusicBot
    ```
 
 ### 🐍 Python Environment
